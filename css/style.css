@@ -115,6 +115,9 @@ footer {
   margin:15px;
 }
 .overlay {
+	font-family: 'Zilla Slab', serif;
+	font-size: 30px;
+	line-height: 45px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -129,7 +132,6 @@ footer {
 .text {
   white-space: normal;
   color: white;
-  font-size: 16px;
   position: absolute;
   overflow: hidden;
   top: 50%;
