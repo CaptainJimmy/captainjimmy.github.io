@@ -55,10 +55,9 @@
 		</div>
 	</div>
 
-<div class="container-fluid cream" id="mainBox">		
-	<div class="row">
-		<div class="col-sm-6" id="sectionBox">
-			<h2>My Projects</h2>
+<div class="container-fluid cream center-block" id="mainBox">		
+		<div class="jumbotron" id="portfolio-jumbotron">
+			<h2 class="portfolio-header">My Projects</h2>
 			<hr>
 			<div class="row">
 				<div class="col-sm-5 project">
@@ -112,8 +111,8 @@
 					<p>A Trivia Game, Similar with Game of Thrones themed trivia, however heavily ported to use random questions from Open Trivia Database, using their API.  The questions are on a response timer, and pulled randomly from the DB with AJAX calls for API Tokens and questions.  AJAX, JSON, JQuery, Bootstrap, Modals, Javascript, DOM Manipulation, Timers </p>
 				</div>
 				<div class="col-sm-5 project">
-<!-- 					<img src="images/snake3.png" alt="ball python3" class="image">
- -->				<a href="https://captainjimmy.github.io/GiphyAPI/index.html"><i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
+
+ 					<a href="https://captainjimmy.github.io/GiphyAPI/index.html"><i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
 
 					<div class="overlay">
 						<div class="text">A Giphy API Portal</div>
@@ -121,14 +120,22 @@
 					<p> Giphy API Content is generated with jquery calls to the DOM, buttons are generated dynamically, and the button clicks pull 10 pictures from the selected topic from a random offset with AJAX. Jquery events are used for button clicks, and to change the .gif state between animated and still. Toolsets used: Bootstrap, Jquery, Ajax, JSON, Random Database Offsets (to provide different content if available from the DB), Javascript, CSS</p>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-sm-5 project">
 
+ 					<a href="https://captainjimmy.github.io/NYTimesAPI/index.html"><i class="fa fa-newspaper-o fa-5x" aria-hidden="true"></i>
+
+					<div class="overlay">
+						<div class="text">NY Times API Portal</div>
+					</div></a>
+					<p>This uses 3 different NYT APis.  Content is generated with jquery calls to the DOM / Form elements, and AJAX calls to the NYtimes APIs (search, top stories, and most popular).  Content is created in its own bootstrap containers as needed and prepended to the DOM elements, along with searches by keywords and dates. Toolsets used: APIs, Jquery, Ajax, JSON, Javascript, CSS, Bootstrap, Bootstrap Date Validation  </p>
+				</div>
+			</div>
 
 		</div>
-		<!-- Empty Div For Full Size Spacing -->
-		<div class="col-sm-1 col-xs-11"></div>
 
-		<div class="col-sm-4 col-xs-11" id="sideBox">
-			<h2>Connect with Me</h2>
+		<div class="well well-lg center-block text-center pagination-centered" id="portfolio-connect">
+			<h2 class="portfolio-header">Connect with Me</h2>
 			<a href="http://github.com/CaptainJimmy"><img src="images/github.png" class="imgSizeAdapt" alt="github"></a>
 				<a href="http://www.linkedin.com/in/jamesreinknecht"><img src="images/linkedIn.png" class="imgSizeAdapt" alt="linkedIn"></a>
 				<a href="https://stackoverflow.com/users/8279464/jim-reinknecht"><img src="images/stackoverflow.png" class="imgSizeAdapt" alt="stackoverflow"></a>
@@ -136,7 +143,6 @@
 				<a href="http://www.facebook.com/captainjimscharters"><img src="images/facebook.png" class="imgSizeAdapt" alt="Facebook"></a>
 				<a href="https://www.youtube.com/user/CaptainSloose"><img src="images/youtube.jpg" class="imgSizeAdapt" alt="YouTube"></a>
 		</div>
-	</div>
 </div>
 </div>
 
