@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nothing to see here</title>
+</head>
+<body>
+<h1> There's nothing to see here.  Move along. </h1>
+<a href="/BasicPortfolio/index.html"> Homework Basic Portfolio</a>
+<br>
+<a href="/HW-Wireframe/index.html"> Homework Wireframe Model</a>
+<br>
+<a href="/Responsive-Portfolio/index.html"> Responsive Portfolio</a>
+<br>
+<a href="/Bootstrap-Portfolio/index.html">Bootstrap Portfolio</a>
+<br>
+<a href="/Hangman/index.html"> Hipster Hangman</a>
+<br>
+<a href="/jquery-game/index.html">A Jquery Game - Butter Robot</a>
+<br>
+<a href="/Trivia/index.html"> A trivia game, Jquery and JS Objects</a>
+<br>
+<a href="/TriviaAPI/index.html"> A similar Trivia Game, ported to use TriviaDB API and JSON</a>
+<br> 
+<a href="/GiphyAPI/index.html">A Tool / Portal for Playing With Giphy APIs JSON, Jquery, AJAX</a>
+
+</body>
+</html>

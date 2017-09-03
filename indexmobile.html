@@ -10,45 +10,68 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- Linking jQuery -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+	
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container-fluid">
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container-fluid">
-	   <div class="navbar-header">
-      <div class="navbar-brand zilla">Capt. Jim Reinknecht</div>
-    </div>
-		
-		<div class="navbar-right">
-			<a href="contact.html" class="navbar-btn btn-lg btn-default zilla cream">Contact</a>
-			<a href="index.html" class="navbar-btn btn-lg btn-default zilla cream">About Me</a>
-			<a href="portfolio.html" class="navbar-btn btn-lg btn-default zilla cream">My Portfolio</a>
+			<span class="navbar-brand zilla">Capt. Jim Reinknecht</span>
+
+		<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>			
+			<span class="icon-bar"></span>
+		</button>
+
+
+		<div class="collapse navbar-collapse navHeaderCollapse">
+
+			<ul class="nav navbar-nav navbar-right zilla">
+
+				<li class="active"><a href="indexmobile.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li class="dropdown">
+
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">LinkedIN</a></li>
+							<li><a href="#">Github</a></li>
+							<li><a href="#">Stackoverflow</a></li>
+						</ul>
+
+				</li>
+
+			</ul>
+
 		</div>
 	</div>
-</nav>
 
-
-<div class="container-fluid cream" id="mainBox">		
+	<div class="container-fluid cream">
 	<div class="row">
 		<div class="col-sm-6" id="sectionBox">
 			<h2>About Me</h2><br>
 			<img src="images/profile.jpg" alt="Profile" class="profileImgSizeAdapt"><p>Ramps tumblr vice literally, tattooed 8-bit chicharrones pok pok woke squid vinyl poutine vaporware readymade bushwick. Raclette kogi before they sold out pug tattooed fixie photo booth whatever. Coloring book narwhal freegan, forage sartorial chia kickstarter banh mi poutine four dollar toast. Ethical pork belly freegan cliche mumblecore food truck. Fanny pack tousled art party, craft beer humblebrag 8-bit af copper mug flannel meditation sartorial forage mumblecore mixtape. Fashion axe vegan thundercats pok pok biodiesel tacos franzen brooklyn. Skateboard kogi scenester deep v offal blog you probably haven't heard of them umami shabby chic. Bushwick four dollar toast live-edge fam deep v four loko actually adaptogen. Farm-to-table celiac cliche twee. Unicorn prism cornhole, etsy succulents bicycle rights ennui. Ennui viral hella irony flannel. Leggings jianbing kinfolk butcher plaid distillery. +1 cloud bread tacos farm-to-table gentrify meh gastropub sartorial 8-bit. Synth tofu vice, blue bottle food truck narwhal fixie. Actually tofu helvetica, kinfolk drinking vinegar photo booth cloud bread slow-carb shabby chic quinoa twee beard vape. </p>
+
 		</div>
+
+
 		<div class="col-sm-4" id="sideBox">
+			<div class="panel">
 				<h2>Connect with Me</h2>
+
 				<a href="http://github.com/CaptainJimmy"><img src="images/github.png" class="imgSizeAdapt" alt="github"></a>
 				<a href="http://www.linkedin.com/in/jamesreinknecht"><img src="images/linkedIn.png" class="imgSizeAdapt" alt="linkedIn"></a>
 				<a href="https://stackoverflow.com/users/8279464/jim-reinknecht"><img src="images/stackoverflow.png" class="imgSizeAdapt" alt="stackoverflow"></a>
 				<a href="mailto:captainjimscharters@gmail.com"><img src="images/email.png" class="imgSizeAdapt" alt="Email"></a>
 				<a href="http://www.facebook.com/captainjimscharters"><img src="images/facebook.png" class="imgSizeAdapt" alt="Facebook"></a>
 				<a href="https://www.youtube.com/user/CaptainSloose"><img src="images/youtube.jpg" class="imgSizeAdapt" alt="YouTube"></a>
+			</div>
 		</div>
 	</div>
 </div>
 
-
-	<footer>
-	Copyright 2017 Capt. Jim Reinknecht
-	</footer> 
 </body>
 </html>

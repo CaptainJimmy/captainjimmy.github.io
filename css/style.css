@@ -1,0 +1,167 @@
+/**
+ * Float Layout Activity
+ **/
+
+
+
+h1,h2,h3,h4 {
+	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+	color: #4aaaa5;
+	text-align: center;
+	}
+
+
+body {
+	font-size: 18px;
+	line-height: 32px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: left;
+}
+footer {
+	background-color: grey;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+#mainBox{
+	margin-top: 40px;
+}
+
+#sectionBox{
+	margin: 35px;
+	border-width: 3px;
+	border-color: #4aaaa5;
+	border-radius: 25px;
+	border-style: solid;
+	background-color: white;
+}
+#sideBox{
+	margin-top: 35px;
+	background-color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #4aaaa5;
+	border-radius: 25px;
+	padding: 20px;
+}
+#panel-box{
+	margin-top: 35px;
+	background-color: white;
+	padding: 20px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ .cinzel {
+	font-family: 'Cinzel', serif;
+}
+.zilla {
+	font-family: 'Zilla Slab', serif;
+	font-size: 30px;
+	color: #4aaaa5;
+}
+.navbar-inverse {
+	background-color: teal;
+}
+.cream {
+	background-color: #fff2cc;
+}
+.imgSizeAdapt {
+	height:128px;
+	width:128px;
+}
+.profileImgSizeAdapt {
+	float:left;
+	width:200px;
+	height:200px;
+	margin:10px;
+}
+.project {
+  position: relative;
+  margin: 20px;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+/*  word-wrap: normal;*/
+}
+.text {
+  white-space: normal;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.project:hover .overlay {
+  width: 100%;
+}
+/*
+@media (max-width: 575px) { ... }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
+@media (max-width: 980px){
+	.zilla {
+		font-size: 20px;
+	}
+	.imgSizeAdapt {
+		height:75px;
+		width:75px;
+	}
+	.profileImgSizeAdapt {
+		width:150px;
+		height: 150px;
+	}
+}
+@media (max-width: 768px){
+	
+	.profileImgSizeAdapt {
+	width:200px;
+	height:200px;
+	position: static;
+	}
+}
+@media (max-width: 640px){
+	#mainBox{
+	margin-top: 75px;
+	}
+	.profileImgSizeAdapt {
+	width:125px;
+	height:125px;
+	position: static;
+	}
+#sideBox{
+	margin-bottom: 35px;	
+}
+.image{
+	width: 40%;
+}
+.project:hover .overlay {
+  width: 40%;
+}
+
+}
