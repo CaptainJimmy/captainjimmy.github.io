@@ -10,22 +10,51 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- Linking jQuery -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container-fluid">
-		<div class="navbar-brand zilla">Capt. Jim Reinknecht</div>
-		<div class="navbar-right">
-			<a href="contact.html" class="navbar-btn btn-lg btn-default zilla cream">Contact</a>
-			<a href="index.html" class="navbar-btn btn-lg btn-default zilla cream">About Me</a>
-			<a href="portfolio.html" class="navbar-btn btn-lg btn-default zilla cream">My Portfolio</a>
+
+<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container-fluid">
+
+			<span class="navbar-brand zilla">Capt. Jim Reinknecht</span>
+
+		<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>			
+			<span class="icon-bar"></span>
+		</button>
+
+
+		<div class="collapse navbar-collapse navHeaderCollapse">
+
+			<ul class="nav navbar-nav navbar-right zilla">
+
+				<li><a href="index.html">About</a></li>
+				<li class="active"><a href="contact.html">Contact</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li class="dropdown">
+
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="http://www.linkedin.com/in/jamesreinknecht">LinkedIN</a></li>
+							<li><a href="http://github.com/CaptainJimmy">Github</a></li>
+							<li><a href="https://stackoverflow.com/users/8279464/jim-reinknecht">Stackoverflow</a></li>
+							<li><a href="http://www.facebook.com/captainjimscharters">Facebook</a></li>
+							<li><a href="mailto:captainjimscharters@gmail.com">Email</a></li>
+							<li><a href="https://www.youtube.com/user/CaptainSloose">YouTube</a></li>
+						</ul>
+
+				</li>
+
+			</ul>
+
 		</div>
-	</div>
-</nav>
+</div>
 
 <div class="container-fluid cream" id="mainBox">		
 	<div class="row">
-		<div class="col-sm-6" id="sectionBox">
+		<div class="col-sm-5 col-xs-11" id="sectionBox">
 			<form>
 				<h2>Contact Me</h2> 
 				<br>
@@ -45,9 +74,9 @@
 				<button type="reset" class="btn-lg btn">Reset</button>
 			</form>
 		</div>
-			
-
-		<div class="col-sm-4" id="sideBox">
+		<!-- Empty Div For Full Size Spacing -->
+		<div class="col-sm-1 col-xs-11"></div>
+		<div class="col-sm-4 col-xs-11" id="sideBox">
 			<h2>Connect with Me</h2>
 			<br>
 				<a href="http://github.com/CaptainJimmy"><img src="images/github.png" class="imgSizeAdapt" alt="github"></a>
